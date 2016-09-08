@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container name="root">
+	<container name="Environments">
+		<container name="INT2">			
+		</container>
+		<container name="INT1">
+			<field name="omnivue-url" value="https://omnivue-test1.test.intranet/OMNIVue/login/login.jsf"></field>
+			<field name="sso-console"
+				value="http://ctlcentral-itv.test.qintra.com/portal/site/qcentral/index.jsp?epi-content=LOGIN&amp;SFA=true"></field>
+			<field name="partner-url"
+				value="https://ctl--e2e.cs28.my.salesforce.com/secur/login_portal.jsp?orgId=00D230000000N2l&amp;portalId=060A0000000HJjK"></field>
+			<container name="OVLoginPage">
+				<container name="Admin">
+					<field name="username_tbx" value="ldtst23" type="mandatory" />
+					<field name="pwd_tbx" value="Qwest2010" type="mandatory" />
+				</container>
+				<container name="Valid">
+					<field name="username_tbx" value="dsptest1"
+						type="mandatory" />
+					<field name="pwd_tbx" value="Ctli@123" type="mandatory" />
+				</container>
+				<container name="Invalid">
+					<field name="username_tbx" value="slstst1@centurylink.com.itv1"
+						type="mandatory" />
+					<field name="pwd_tbx" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="ComSalesOp">
+					<field name="tbx_username" value="central.salesops1@centurylink.com.itv1"
+						type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="SSOLoginPage">
+				<container name="ssocommercial">
+					<field name="tbx_user_name" value="slstst2" type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="PartnerPortalLoginPage">
+				<container name="Partner">
+					<field name="tbx_user_name" value="partner.agent2@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="RefreshData">
+				<field name="approved_commercial_account" value="TEST SALES ACCOUNT"></field>
+			</container>
+			 
+		</container>
+		<container name="ITV2">
+			<field name="sfa-url" value="http://test.salesforce.com"></field>
+			<field name="sso-console" value="https://ctl--itv2.cs28.my.salesforce.com"></field>
+			<field name="partner-url"
+				value="https://ctl--itv2.cs28.my.salesforce.com/secur/login_portal.jsp?orgId=00D230000008h8N&amp;portalId=060A0000000HJjK"></field>
+			<container name="LoginPage">
+				<container name="Admin">
+					<field name="tbx_username" value="ramu.vairavan@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="Ramu1234" type="mandatory" />
+				</container>
+				<container name="Commercial">
+					<field name="tbx_username" value="slstst1@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2016clink" type="mandatory" />
+					<field name="first_name" value="Test" />
+					<field name="last_name" value="SalesRep1" />
+				</container>
+				<container name="Federal">
+					<field name="tbx_username" value="slstst3@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+				</container>
+				<container name="Commercial User Director">
+					<field name="tbx_username" value="ramu.vairavan@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="Ramu1234" type="mandatory" />
+				</container>
+				<container name="AnotherCommercial">
+					<field name="tbx_username" value="slstst2@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+					<field name="first_name" value="Test" />
+					<field name="last_name" value="SalesRep2" />
+				</container>
+				<container name="InternationalSalesRep">
+					<field name="tbx_username" value="test.intlrep1@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="ccainternal">
+				<field name="tbx_username" value="qbpp.csm@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="qbppsalesdir">
+					<field name="tbx_username" value="sreeja.sreekumar@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="Ctli@1234" type="mandatory" />
+					</container>	
+				<container name="ComSalesOp">
+					<field name="tbx_username" value="central.salesops1@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="ComSalesOpSU">
+					<field name="tbx_username" value="central.salesopssu@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+				</container>
+				<container name="CareOrderCoordinator">
+					<field name="tbx_username" value="care.orderCoordinator1@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="POM Analyst">
+					<field name="tbx_username" value="pom.analyst@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="westsalesmgr">
+					<field name="tbx_username" value="west.salesmgr@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="westsalesdir">
+					<field name="tbx_username" value="west.salesdir@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+				</container>
+				<container name="CollectionsAdmin">
+					<field name="tbx_username" value="colltestadmin@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="CollectionsRep">
+					<field name="tbx_username" value="colltestrep@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="CollectionsManager">
+					<field name="tbx_username" value="colltestmanager@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="CollectionsSupervisor">
+					<field name="tbx_username" value="colltestsupervisor@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="SSOLoginPage">
+				<container name="ssocommercial">
+					<field name="tbx_user_name" value="slstst1" type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="BSDO_Repair_Technician">
+					<field name="tbx_user_name" value="slstst5" type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="Abhilash_Repair_Technician">
+					<field name="tbx_user_name" value="ab28233" type="mandatory" />
+					<field name="tbx_password" value="CtlD@456" type="mandatory" />
+				</container>
+			</container>
+			<container name="PartnerPortalLoginPage">
+				<container name="Partner">
+					<field name="tbx_user_name" value="partner.agent2@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="RefreshData">
+				<field name="approved_commercial_account" value="Comm_Account_0825_104700"></field>
+				<field name="approved_commercial_account_with_mcid" value="DCM Services LLC"></field>
+				<field name="commercial_account_for_owner_transfer" value="Test_acc_trans"></field>
+				<field name="unapproved_commercial_account" value="Comm_Account_0806_150206"></field>
+				<field name="commercial_opty" value="Auto_Opty_0806_145334"></field>
+				<field name="cpq_commercial_opty" value="Automation_Test_02"></field>
+				<field name="lq_commercial_opty" value="Automation_Test_LQ_01"></field>
+				
+			</container>
+		</container>
+		<container name="E2E">
+			<field name="omnivue-url" value="https://omnivue-test3.test.intranet/OMNIVue/login/login.jsf"></field>
+			    <container name="OVLoginPage">
+				<container name="Admin">
+					<field name="username_tbx" value="ldtst23" type="mandatory" />
+					<field name="pwd_tbx" value="Qwest2010" type="mandatory" />
+				</container>
+			</container>
+			
+		</container>
+		<container name="E2E1">
+			<field name="sfa-url" value="http://test.salesforce.com"></field>
+			<field name="sso-console" value="https://ctl--e2e.cs24.my.salesforce.com/"></field>
+			<field name="partner-url"
+				value="https://ctl--e2e.cs24.my.salesforce.com/secur/login_portal.jsp?orgId=00D190000000Zph&amp;portalId=060A0000000HJjK"></field>
+			<container name="LoginPage">
+				<container name="Admin">
+					<field name="tbx_username" value="ramu.vairavan@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="Ramu1234" type="mandatory" />
+				</container>
+				<container name="LSadmin">
+					<field name="tbx_username" value="apttus.commsalesrep1@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+				</container>
+				<container name="ApttusCommSales">
+					<field name="tbx_username" value="apttus.commsalesrep1@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+				</container>
+				<container name="Commercial">
+					<field name="tbx_username" value="slstst1@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+					<field name="first_name" value="Test" />
+					<field name="last_name" value="SalesRep1" />
+				</container>
+				<container name="AnotherCommercial">
+					<field name="tbx_username" value="slstst2@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+					<field name="first_name" value="Test" />
+					<field name="last_name" value="SalesRep2" />
+				</container>
+				<container name="ComSalesOp">
+					<field name="tbx_username" value="central.salesops1@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="ComSalesOpSU">
+					<field name="tbx_username" value="central.salesopssu@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+				</container>
+				<container name="CareOrderCoordinator">
+					<field name="tbx_username" value="care.orderCoordinator1@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="POM Analyst">
+					<field name="tbx_username" value="pom.analyst@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="CollectionsAdmin">
+					<field name="tbx_username" value="colltestadmin@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="CollectionsRep">
+					<field name="tbx_username" value="colltestrep@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="CollectionsManager">
+					<field name="tbx_username" value="colltestmanager@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="CollectionsSupervisor">
+					<field name="tbx_username" value="colltestsupervisor@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="Federal">
+					<field name="tbx_username" value="slstst3@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+				</container>
+				<container name="Commercial User Director">
+					<field name="tbx_username" value="amar.ramadas@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="Test1234" type="mandatory" />
+				</container>
+				<container name="InternationalSalesRep">
+					<field name="tbx_username" value="test.intlrep1@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="ccainternal">
+					<field name="tbx_username" value="qbpp.csm@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>	
+				<container name="qbppsalesdir">
+					<field name="tbx_username" value="amar.ramadas@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="Test1234" type="mandatory" />
+				</container>
+				<container name="westsalesmgr">
+					<field name="tbx_username" value="west.salesmgr@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+				</container>
+				<container name="westsalesdir">
+					<field name="tbx_username" value="west.salesdir@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="SSOLoginPage">
+				<container name="ssocommercial">
+					<field name="tbx_user_name" value="slstst1" type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="BSDO_Repair_Technician">
+					<field name="tbx_user_name" value="slstst5" type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="Abhilash_Repair_Technician">
+					<field name="tbx_user_name" value="ab28233" type="mandatory" />
+					<field name="tbx_password" value="CtlD@456" type="mandatory" />
+				</container>
+				<container name="ssocommercial2">
+					<field name="tbx_user_name" value="slstst2" type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="BSDO_Repair_Technician">
+					<field name="tbx_user_name" value="slstst5" type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="PartnerPortalLoginPage">
+				<container name="Partner">
+					<field name="tbx_user_name" value="partner.agent2@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2016clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="RefreshData">
+				<!--<field name="approved_commercial_account" value="approved_comm_account"></field> 
+					<field name="approved_commercial_account" value="Comm_Account_0824_195033"></field> -->
+				<field name="approved_commercial_account_with_mcid" value="DCM Services LLC"></field>
+				<!--<field name="commercial_account_for_owner_transfer" value="commercial_account_for_owner_transfer"></field> 
+					<field name="unapproved_commercial_account" value="Unapproved_Comm_account"></field> 
+					<field name="commercial_opty" value="commercial_opty"></field> <field name="cpq_commercial_opty" 
+					value="cpq_commercial_opty"></field> -->
+				<field name="account_name" value="Comm_Account_0824_195033"></field>
+			</container>
+		</container>	
+		
+	</container>
+	<container name="CommonData">
+	 	<container name="OVActivationPage">
+        	<container name="US43123-TC24409">
+				<container name="Locationdata">
+                	<field name="tbx_addNo" value="wait-1:100" type="mandatory"></field>
+                	<field name="tbx_streetName" value="wait-1:NEW BING" type="mandatory"></field>
+              	 	<field name="tbx_buildingclli" value="wait-1: " type="mandatory"></field>
+          		</container>
+          	</container>
+          	<container name="TC24409">
+          		 <field name="ddl_locationclli" value="wait-1:TESTYYY" type="mandatory"></field>
+              	 <field name="ddl_relayID" value="wait-1:000021.12D" type="mandatory"></field>
+            </container>   
+        	<container name="US43123-TC24975">
+          		<container name="MST">
+               		<field name="ddl_searchType" value="wait-2:Inventory" type="mandatory"></field>
+               		<field name="ddl_invntryType" value="wait-2:Device" type="mandatory"></field>
+               		<field name="tbx_deviceName" value="wait-2:DFNCOH4333M-23456.33M" type="mandatory"></field>
+          		</container>
+          		<container name="FDP">
+               		<field name="ddl_searchType" value="wait-2:Inventory" type="mandatory"></field>
+               		<field name="ddl_invntryType" value="wait-2:Device" type="mandatory"></field>
+               		<field name="tbx_deviceName" value="wait-2:HSTNKS0112H-34567.12H" type="mandatory"></field>
+          		</container>
+          		<container name="Splitter">
+	               <field name="ddl_searchType" value="wait-2:Inventory" type="mandatory"></field>
+	               <field name="ddl_invntryType" value="wait-2:Device" type="mandatory"></field>
+	               <field name="tbx_deviceName" value="wait-2:LKWDCOHT44H-34567.44H" type="mandatory"></field>
+          		</container>
+          	</container>   
+          	<container name="US31642-TC20884">
+		          <container name="Less than 1">
+		               <field name="tbx_ctagtxtfield1" value="wait-2:0" type="mandatory"></field>
+		               <field name="tbx_ctagtxtfield2" value="wait-2:213" type="mandatory"></field>               
+		          </container>
+		          <container name="Alphanumeric values">
+		               <field name="tbx_ctagtxtfield1" value="wait-2:015e24" type="mandatory"></field>
+		               <field name="tbx_ctagtxtfield2" value="wait-2:+1" type="mandatory"></field>               
+		          </container>
+		          <container name="Greater than 4095">
+		               <field name="tbx_ctagtxtfield1" value="wait-2:1" type="mandatory"></field>
+		               <field name="tbx_ctagtxtfield2" value="wait-2:4096" type="mandatory"></field>               
+		          </container>
+		           <container name="Single Range 1-4095">
+		               <field name="tbx_ctagtxtfield1" value="wait-2:1" type="mandatory"></field>
+		               <field name="tbx_ctagtxtfield2" value="wait-2:4095" type="mandatory"></field>               
+		          </container>
+		           <container name="Single Number Range">
+		               <field name="tbx_ctagtxtfield1" value="wait-2:222" type="mandatory"></field>
+		               <field name="tbx_ctagtxtfield2" value="wait-2:222" type="mandatory"></field>               
+		          </container>
+		          <container name="Multiple Range between 1-4095">
+		               <field name="tbx_ctagtxtfield1" value="wait-2:2" type="mandatory"></field>
+		               <field name="tbx_ctagtxtfield2" value="wait-2:123" type="mandatory"></field>
+		           </container>   
+		           <container name="Multiple Range between 1-4095 secound range">
+		               <field name="tbx_ctagtxtfield3" value="wait-2:1032" type="mandatory"></field>
+		               <field name="tbx_ctagtxtfield4" value="wait-2:1238" type="mandatory"></field>
+		            </container>
+		            <container name="Multiple Range between 1-4095 third range">
+		               <field name="tbx_ctagtxtfield5" value="wait-2:212" type="mandatory"></field>
+		               <field name="tbx_ctagtxtfield6" value="wait-2:1031" type="mandatory"></field> 		                            
+		          </container>
+		          <container name="Modify the Ctag Range">
+		               <field name="tbx_ctageditfield1" value="wait-2:2046" type="mandatory"></field>
+		               <field name="tbx_ctageditfield2" value="wait-2:4095" type="mandatory"></field>               
+		          </container>
+		          <container name="Overlapping the CTag range">
+		               <field name="tbx_ctagtxtfield1" value="wait-2:2" type="mandatory"></field>
+		               <field name="tbx_ctagtxtfield2" value="wait-2:4095" type="mandatory"></field>               
+		          </container>		          
+			 </container>
+          	<container name="OLT-DSL OVC">
+               <field name="ddl_searchType" value="wait-1:Inventory" type="mandatory"></field>
+               <field name="ddl_invntryType" value="wait-1:Device" type="mandatory"></field>
+               <field name="tbx_deviceName" value="wait-1:SLKCUTPS-OLT-65370" type="mandatory"></field>
+          	 </container>
+         	<container name="OLT-MEF EVC">
+               	<field name="ddl_searchType" value="wait-1:Inventory" type="mandatory"></field>
+              	<field name="ddl_invntryType" value="wait-1:Device" type="mandatory"></field>
+               	<field name="tbx_deviceName" value="wait-1:DECAGILE-OLT-65052" type="mandatory"></field>
+         	 </container>         	 
+         	<container name="OLT-No Service">
+         		<field name="ddl_searchType" value="wait-1:Inventory" type="mandatory"></field>
+               	<field name="ddl_invntryType" value="wait-1:Device" type="mandatory"></field>
+               	<field name="tbx_deviceName" value="wait-1:TESTYYYYON1-ONT-1" type="mandatory"></field>
+         	 </container>
+        	<container name="Refreshdata">
+               <field name="ddl_searchType" value="wait-1:Inventory" type="mandatory"></field>
+               <field name="ddl_invntryType" value="wait-1:Device" type="mandatory"></field>
+               <field name="tbx_deviceName" value="wait-1:IRRTVYAP-OLT27174" type="mandatory"></field>
+         	 </container>
+        	<container name="DSL OVC Data">
+               <field name="ddl_searchType" value="wait-1:Inventory" type="mandatory"></field>
+               <field name="ddl_invntryType" value="wait-1:Service" type="mandatory"></field>
+               <field name="tbx_serviceName" value="wait-1:CNBLIAWA02W.2839_2.24" type="mandatory"></field>
+        	</container>
+       		<container name="CSOF Order ID">
+               	<field name="ddl_searchType" value="wait-1:Orders" type="mandatory"></field>
+              	<field name="ddl_productType" value="wait-1:GPON" type="mandatory"></field>
+               	<field name="tbx_orderId" value="wait-1:568014" type="mandatory"></field>
+         	</container>    
+         	<container name="Ensemble Order ID">
+               	<field name="ddl_searchType" value="wait-1:Orders" type="mandatory"></field>
+              	<field name="ddl_productType" value="wait-1:GPON" type="mandatory"></field>
+               	<field name="tbx_ensembleOrderNumber" value="wait-1:1337006432" type="mandatory"></field>
+         	</container>
+         	<container name="TN">
+               	<field name="ddl_searchType" value="wait-1:Orders" type="mandatory"></field>
+              	<field name="ddl_productType" value="wait-1:GPON" type="mandatory"></field>
+               	<field name="tbx_DTN" value="wait-1:1000007319" type="mandatory"></field>
+         	 </container>   
+         	 <container name="Customer Name">
+               	<field name="ddl_searchType" value="wait-1:Orders" type="mandatory"></field>
+              	<field name="ddl_productType" value="wait-1:GPON" type="mandatory"></field>
+               	<field name="tbx_customerName" value="wait-1:TEST, VIJAY" type="mandatory"></field>
+         	 </container>  
+         	 <container name="GPON Order">
+               	<field name="ddl_searchType" value="wait-1:Orders" type="mandatory"></field>
+              	<field name="ddl_productType" value="wait-1:GPON" type="mandatory"></field>
+              	<field name="lnk_orderadvanceSearch" value="wait-1:orderadvanceSearch" type="mandatory"></field>
+         	 </container>
+         	 <container name="Order_Validation">
+                  <field name="lbl_csoderid" value="77/L1XX/785391//ABCD" type="mandatory"></field>
+        	 </container>
+         	 <container name="DTN Data">
+               	<field name="tbx_dtnorder" value="wait-1:1000007319" type="mandatory"></field>              	
+         	 </container>
+         	 <container name="IPTV Data">
+               	<field name="ddl_searchType" value="wait-1:Inventory" type="mandatory"></field>
+               	<field name="ddl_invntryType" value="wait-1:Service" type="mandatory"></field>
+               	<field name="tbx_serviceName" value="wait-1:9988776655-IPTV" type="mandatory"></field>
+               	<field name="ddl_servicetype" value="wait-1:IPTV" type="mandatory"></field> 	
+        	 </container>  
+        	 <container name="TC39259">
+          		 <field name="ddl_FilterBy" value="wait-1:OV_USER_ID" type="mandatory"></field>
+              	 <field name="tbx_Filtertext" value="wait-1:aa98197" type="mandatory"></field>
+            </container> 
+            <container name="TC39266workgroup">
+          		 <field name="ddl_select_workgroup" value="wait-1:AGP" type="mandatory"></field>
+            </container>
+            <container name="TC39266role">
+          		 <field name="tbx_Role_Name" value="wait-1:ROLE_AUTO" type="mandatory"></field>
+            </container>
+            <container name="TC39267workgroup">
+          		 <field name="ddl_select_workgroup" value="wait-1:ASP" type="mandatory"></field>
+            </container>
+            <container name="TC39267role">
+          		 <field name="ddl_userselected_role" value="wait-1:USER" type="mandatory"></field>
+            </container>  	         	        
+        </container>
+        <container name="OVServiceDetailsPage">
+                  <field name="tbx_editDeviceName" value="77/L1XX/785391//ABCD" type="mandatory"></field>
+        </container>
+        <container name="OVModServiceDetailsPage">
+               <field name="tbx_editDeviceName" value="77/L1XX/785391//CTQF" type="mandatory"></field>
+        </container>
+        <container name="OVCreateDevicePage">				
+                <container name="US43123-TC24409">
+					<container name="Locationdata">
+	                	<field name="tbx_addNo" value="wait-1: " type="mandatory"></field>
+	                	<field name="tbx_streetName" value="wait-1: " type="mandatory"></field>
+	              	 	<field name="tbx_buildingclli" value="wait-1:TESTYYYY" type="mandatory"></field>
+          			</container>
+          			<container name="Devicedata">
+          		 		<field name="tbx_DeviceCLLI" value="wait-1:TESTYYYY" type="mandatory"></field>           	 	
+	              	 	<field name="tbx_relayID" value="wait-1:0.0001245T02" type="mandatory"></field>
+	              	 	<field name="ddl_Aerialrburied" value="wait-1:Aerial" type="mandatory"></field>
+            		</container>
+            		<container name="Topologydata">
+          		 		<field name="ddl_TopologyType" value="wait-1:PON Network" type="mandatory"></field>
+              	 		<field name="tbx_Topologyname" value="wait-1:TXNTW7223" type="mandatory"></field>              	 		 
+            		</container>               		
+				</container>
+				<container name="US40972-TC23914">
+					<container name="Locationdata">
+	                	<field name="tbx_addNo" value="wait-1:105" type="mandatory"></field>
+	                	<field name="tbx_streetName" value="wait-1:WEST EAST CHORD" type="mandatory"></field>
+	              	 	<field name="tbx_buildingclli" value="wait-1: " type="mandatory"></field>
+          			</container>
+          			<container name="Wireddata">
+	                	<field name="tbx_wiredaddNo" value="wait-1:105" type="mandatory"></field>
+	                	<field name="tbx_wiredstreetName" value="wait-1:WEST EAST CHORD" type="mandatory"></field>
+	              	 	<field name="tbx_wiredbuildingclli" value="wait-1: " type="mandatory"></field>
+          			</container>
+          			<container name="Devicedata">
+          		 		<field name="tbx_DeviceCLLI" value="wait-1:TESTYYYY" type="mandatory"></field>
+          		 		<field name="tbx_Devicedesignator" value="wait-1:03A" type="mandatory"></field>           	 	
+	              	 	<field name="ddl_IsDiversed" value="wait-1:No" type="mandatory"></field>
+	              	 	<field name="ddl_affiliate_owner" value="wait-1:LOCAL" type="mandatory"></field>	              	 	
+	              	 	<field name="ddl_Indooroutdoor" value="wait-1:Indoor" type="mandatory"></field>
+	              	 	<field name="tbx_rid" value="wait-1:254" type="mandatory"></field>
+	              	 	<field name="ddl_InstallationIndicator" value="wait-1:Self Install" type="mandatory"></field>
+	              	 	<field name="ddl_AerialOrBuried" value="wait-1:Buried" type="mandatory"></field>
+	              	 	<field name="ddl_FiberProvisioning" value="wait-1:Infrastructure Build" type="mandatory"></field>
+            		</container>
+            		<container name="Topologydata">
+          		 		<field name="ddl_TopologyType" value="wait-1:PON Network" type="mandatory"></field>
+              	 		<field name="tbx_Topologyname" value="wait-1:TXNTW7223" type="mandatory"></field>              	 		 
+            		</container>            		               		
+				</container>				      		
+				<container name="US51414-TC37684">
+					<container name="Locationdata">
+	                	<field name="tbx_addNo" value="wait-1: " type="mandatory"></field>
+	                	<field name="tbx_streetName" value="wait-1: " type="mandatory"></field>
+	              	 	<field name="tbx_buildingclli" value="wait-1:TESTYYYY" type="mandatory"></field>
+          			</container>
+          			<container name="Devicedata">
+          		 		<field name="tbx_DeviceCLLI" value="wait-1:TESTYYYY" type="mandatory"></field>           	 	
+	              	 	<field name="tbx_relayID" value="wait-1:0.0001245T02" type="mandatory"></field>
+	              	 	<field name="ddl_Aerialrburied" value="wait-1:Aerial" type="mandatory"></field>
+            		</container>
+            		<container name="Topologydata">
+          		 		<field name="ddl_TopologyType" value="wait-1:PON Network" type="mandatory"></field>
+              	 		<field name="tbx_Topologyname" value="wait-1:TXNTW7223" type="mandatory"></field>              	 		 
+            		</container> 
+            	</container>
+		</container>
+   	</container>					 
+</container>
